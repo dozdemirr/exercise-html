@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = utf-8>
+        <title>ShareFare Product Research</title>
+    </head>
+    <body>
+        <form action="thanks.html"></form> <!--for opening thank you message after clicking submit-->
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSc0yYhVkweJ_NZDDNi4Y_Kh-2UotB29O9Q1d0mdXIFhkE52lQ/viewform">
+        <!--since i dont know css yet, i centered everything with align-->
+        <div align="center">
+        <h1>ShareFare Product Research</h1>
+        ShareFare is a transportation app on your phone used for navigating nearby customer/s who also want to go to the same(or nearby) locations in order to share a taxi ride.
+        <br><br>
+        <label>What is your sex? </label>
+        <br><br>
+        <input type="radio" name="exe" value=1>Female
+        <input type="radio" name="exe" value=2>Male
+        <input type="radio" name="exe" value=3>Prefer not to say
+        <br><br>
+        <label>What is your age?</label>
+        <input type="text" name="Age" size=35 maxlength=35 value="" required> 
+        <br><br>
+        <label>What is your occupation?</label>
+        <input type="text" name="Occupation" size=35 maxlength=35 value="" required> 
+        <br><br>
+        <p>
+            <label>Which taxi applications are you using?</label>
+        </p>
+        <p>
+            <input type="checkbox" name="Uber">Uber
+            <input type="checkbox" name="Bla Bla">Bla Bla
+            <input type="checkbox" name="BiTaksi">Bi Taksi
+            <input type="checkbox" name="Moov">Moov
+        </p>
+        <label>Which side of İstanbul do you use taxis the most?</label>
+        <select name="side">
+            <option value=1>Anatolian side
+            <option value=2>European side
+        </select>
+        <br><br>
+        <label>On a scale from 1(stronglyy not comfortable)-5(very comfortable) how comfortable are you with using an application for sharing taxis to split prices?</label>
+        <p>
+            <input type="checkbox" name="1">1
+            <input type="checkbox" name="2">2
+            <input type="checkbox" name="3">3
+            <input type="checkbox" name="4">4
+            <input type="checkbox" name="5">5
+        </p>
+        <label>Any comments or suggestions for our product?</label>
+        <br><br>
+        <textarea name="Comments" cols=30 rows=4></textarea>
+        <br><br>
+        <input type=submit value="Submit form">
+        <p>
+            Thank you for submitting the form!
+        </p>
+        </div>
+        </form>
+    </body>
+</html>
